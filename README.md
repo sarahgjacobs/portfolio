@@ -1,4 +1,4 @@
-# <Sarah Jacobs Portfolio>
+# Sarah Jacobs Portfolio
 
 ## Description
 
