@@ -8,6 +8,12 @@ This portfolio is an ongoing colection of the projects Sarah Jacobs has worked o
 
 See the live website here: https://sarahgjacobs.github.io/portfolio/
 
+## Mockup
+
+## User Story
+
+## Acceptance Criteria
+
 ## Usage
 
 ![Screenshot of Portfolio Website](./assets/images/Screen%20Shot%202022-11-05%20at%201.09.11%20PM.png "Sarah Jacobs Portfolio")
