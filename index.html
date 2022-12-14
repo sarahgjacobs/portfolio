@@ -35,11 +35,11 @@
       font-family: 'Spectral', serif;
   } */
 
-  .btn, .bluecolor {
-    background-color:#ACD9FB;
+  .btn,
+  .bluecolor {
+    background-color: #ACD9FB;
     border-color: #ACD9FB;
   }
-
 </style>
 
 
@@ -72,7 +72,7 @@
         <div>
           <h1>About Sarah Jacobs</h1>
           <p class="lead my-4">
-            Sarah is a <span class="text-danger">Full Stack Engineer</span> interested in the inner
+            Sarah is a <span class="bluecolor">Full Stack Engineer</span> interested in the inner
             complexities of today's technology. She's currently seeking roles in Front End, Back End, or
             Machine Development. Her most fun project to date has been the Carrot Calendar, an interactive
             calendar which utilizes servers, API's and Bootstrap. Please browse the content below to see
@@ -105,35 +105,54 @@
     <div class="container">
       <div class="row text-center g-4">
         <div class="col">
-          <div class="card text-dark p-3">
+          <div class="card text-light p-3 bluecolor bg-opacity-25">
             <div class="card-body text-center">
               <div class="h1 mb-3">
-                <img class="w-100 p-2 mb-3" src="./assets/images/carrotcalendar.png"> Carrot Calendar</div>
-              <p class="card-text">Here is my first project. I will have to add an image and more text
-                later!</p>
+                <img class="w-100 p-2 mb-3" src="./assets/images/carrotcalendar.png"> Carrot Calendar
+              </div>
+              <p class="card-text">Gaining over $100k in revenue per year, Bobbys Rabbits needed a simple, efficient way
+                to coordinate community events to boost interaction and sales. Carrot Calendar is a user-friendly
+                calendar for users of Bobbys Rabbits to create online events, RSVP, and pitch money in the pot for
+                games. Sarah oversaw the deployment of the timezone API which enabled thousands of users from Japan,
+                South Africa, and even Europe to be able to accurately engage with the calendar. Tools and languages
+                used include HTML, CSS, JavaScript, Bootstrap, APIs, Agile Methodology, DOM, and Node.js.
+
+              </p>
+              <p class="text-secondary"><i>This project has been submitted to a Hackathon!</i></p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card mb-5 text-dark">
+          <div class="card mb-5 p-2 text-light bluecolor bg-opacity-25">
             <div class="card-body text-center">
-              <a href="https://sarahgjacobs.github.io/sarahjacobswrites/#"><img class="w-100 p-3 mb-3" src="./assets/images/sarahjacobswrites.png" alt="writer and author profile for published and unpublished books"></a>
-              <div class="h1 mb-3">Sarah Jacobs Writes</div>
-              <p class="card-text">This author profile showcases Sarah Jacobs' books. It includes a little blurb about her as well as an 'In progress' and 'Completed' section. Check out the website to see her work!</p>
+              <a href="https://sarahgjacobs.github.io/sarahjacobswrites/#"><img class="w-100 p-3 mb-3"
+                  src="./assets/images/sarahjacobswrites.png"
+                  alt="writer and author profile for published and unpublished books"></a>
+              <div class="h1 mb-5">Sarah Jacobs Writes</div>
+              <p class="card-text">This author profile is a landing page for many fans to engage with Sarah's portfolio
+                of stories. This website allows users to search through her biography, current work, and completed work
+                in order to drive more sales and increase activity. Sarah developed the original concept, creation and
+                deployment of this project through the use of tools and languages such as: HTML, CSS, JavaScript,
+                Bootstrap, Agile Methodology, and DOM.
+              </p>
+              <p class="text-secondary"><i>Click the photo above to see her work!</i></p>
+
             </div>
           </div>
           <div class="card bg-light text-dark">
             <div class="card-body text-center">
               <div class="h1 mb-3">Reservee</div>
-              <p class="card-text">Coming Soon! Reservee is a full-stack website developed for restaurants and customers in mind. Users will be able to make remote reservations with ease and even have the chance to try a new restaurant.</p>
+              <p class="card-text">Coming Soon! Reservee is a full-stack website developed for restaurants and customers
+                in mind. Users will be able to make remote reservations with ease and even have the chance to try a new
+                restaurant.</p>
             </div>
           </div>
-          <div class="card bg-light text-dark">
+          <!-- <div class="card bg-light text-dark">
             <div class="card-body text-center">
               <div class="h1 mb-3">New Netflix</div>
               <p class="card-text">Coming Soon! With the use of helpful API's, this program will feature many up and coming movies for your viewing.</p>
             </div>
-          </div>
+          </div> -->
         </div>
 
 
@@ -141,23 +160,27 @@
 
   </section>
 
-
-  <section id="contact" class="5">
+  <section class="text-light p-4 bluecolor" id="contact">
+    <div class="row text-center g-4">
+      <div class="col">
     <div class="container">
-      <div class="align-items-center">
-        <div class="col-md">
-          <img src="">
-        </div>
-        <div class="col-md p-5">
+      <div class="col-md justify-content-between align-items-center">
+        <div class="card text-light bluecolor">
+
           <h2>Contact Sarah</h2>
+
           <p>Email: <a href="sgjacobs14@gmail.com">sgjacobs14@gmail.com</a></p>
+          </div>
+          <!-- <div class="card text-light bluecolor"> -->
+
           <svg width="100" height="100">
-            <img class="w-50 justify-content-between" src="./assets/images/undraw_start_building_re_xani.svg">
-            <!-- <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" /> -->
-          </svg>
+            <img src="./assets/images/undraw_start_building_re_xani.svg" class="w-50 justify-content-between"></svg>
         </div>
       </div>
-    </div>
+    </div></div></div>
+  </section>
+
+  
   </section>
 
 
@@ -168,7 +191,7 @@
 
 </body>
 
-<div class="container bg-dark text-light p-3 text-align-center">
+<div class="container text-bluecolor p-3 text-align-center">
   <footer>
     Thanks for viewing Sarah's portfolio!
   </footer>
