@@ -1,4 +1,4 @@
-# Sarah Jacobs Portfolio
+
 
 # Sarah Jacobs' Portfolio
 [![Apache](https://img.shields.io/badge/license-apache-yellow)](https://opensource.org/licenses/Apache-2.0)
