@@ -1,21 +1,28 @@
 # Sarah Jacobs Portfolio
 
-## Description
+# Sarah Jacobs' Portfolio
+[![Apache](https://img.shields.io/badge/license-apache-yellow)](https://opensource.org/licenses/Apache-2.0)
 
-This portfolio is an ongoing colection of the projects Sarah Jacobs has worked on since the beginning of her time at Georgia Tech. She used her growing HTML, CSS, Bootstrap and JavaScript skills in order to create an engaging, clean portfolio that displays some of her best projects. Please click the provided buttons to navigate between additional portfolio resources such as: LinkedIn, Github, and Resume. 
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
+- [License](#license)
 
-## Installation
+### Description
+This portfolio is an ongoing colection of the projects Sarah Jacobs has worked on since the beginning of her time at Georgia Tech. She used her growing HTML, CSS, and JavaScript skills in order to create an engaging, clean portfolio that displays some of her favorite projects to date! She's excited to use an Agile approach as she gets to add more and more features the farther into her career she traverses. Please click the provided buttons to navigate between additional portfolio resources such as: LinkedIn, Github, and Resume.
 
+### Installation
 See the live website here: https://sarahgjacobs.github.io/portfolio/
 
-## User Story
+### Usage
+Click on [this link](https://sarahgjacobs.github.io/portfolio/) to see the deployed website. Once you've arrived, you can click on the navbar to navigate through the page, or browse the provided buttons to view Sarah's resume, LinkedIn, and GitHub.
+![Screenshot of Portfolio Website](./assets/images/Screen%20Shot%202023-02-09%20at%209.22.03%20AM.png "Sarah Jacobs Portfolio")
 
-AS AN employer, I WANT to view Sarah's portfolio SO THAT I can see the types of projects she's previously made and get a better understanding of her work.
+### Contact
+For more information please contact: [sgjacobs14@gmail.com](mailto:sgjacobs14@gmail.com)
+Or visit my GitHub page at: [sarahgjacobs]
 
-## Acceptance Criteria
-
-WHEN I load the page, THEN I am greeted with a picture of Sarah, a navbar, and an about section. WHEN I click on the navbar, THEN the page takes me to the corresponding section. WHEN I click the buttons for LinkedIn, Github and Resume, THEN I am taken to the correct landing page. WHEN I click an image in portfolio, THEN I am taken to the github repository or deployed page.
-
-## Usage
-
-![Screenshot of Portfolio Website](./assets/images/Screen%20Shot%202022-12-07%20at%2011.18.59%20PM.png "Sarah Jacobs Portfolio")
+### License 
+    This software is licensed under Apache License 2.0
